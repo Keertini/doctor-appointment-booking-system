@@ -1,0 +1,130 @@
+.booking {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--secondary-color);
+  position: sticky;
+  top: 80px;
+  background-color: white;
+}
+
+.fullname {
+  color: black;
+}
+.booking__top h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.booking__top h3 span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+  margin-left: 0.5rem;
+}
+
+.booking__top span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+
+.booking__top span i {
+  color: var(--secondary-color);
+}
+
+.booking__top {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(229, 231, 235);
+}
+
+.booking__form {
+  padding-top: 1rem;
+}
+
+.booking__form h5 {
+  margin-bottom: 1rem;
+}
+
+.booking__form input,
+.booking__form select,
+.booking__form input[type="radio"] {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  color: black;
+  font-size: 0.9rem;
+  border: 1px solid rgb(229, 231, 235);
+}
+
+.booking__form input:focus,
+.booking__form select:focus,
+.booking__form input[type="radio"]:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+}
+
+.booking__form select {
+  margin-bottom: 1rem;
+}
+
+.radio-labels {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.radio-labels label {
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  color: var(--text-color);
+}
+
+.radio-labels input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.radio-labels input[type="radio"]:checked + label {
+  font-weight: bold;
+}
+
+.booking__bottom li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking__bottom li h5,
+.booking__bottom li span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: black;
+}
+
+.total h5,
+.total span {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: var(--heading-color) !important;
+}
+
+.booking__bottom Button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.signature-container {
+  margin-top: 1rem;
+}
+
+.signature-container canvas {
+  border: 1px solid #ccc;
+}
+
+.signature-buttons {
+  margin-top: 10px;
+}
+
+.signature-buttons Button {
+  margin-right: 30px;
+}

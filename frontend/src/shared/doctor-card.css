@@ -1,0 +1,118 @@
+.doctor__img img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card {
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.doctor__img {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  overflow: hidden;
+  position: relative;
+}
+
+.doctor__img span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: max-content;
+  height: max-content;
+  z-index: 10;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px 0 0 0;
+}
+
+.doctor__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card__top span i {
+  color: var(--secondary-color);
+}
+
+.doctor__rating {
+  font-size: 0.8rem;
+  color: var(--text-color);
+}
+
+.doctor__location {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.doctor__rating i,
+.doctor__location i {
+  font-size: 1rem;
+}
+
+.doctor__title {
+  margin-top: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--secondary-color); /* Initial color set to violet */
+}
+
+.doctor__title a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.doctor__title a:hover,
+.doctor__location:hover {
+  color: inherit; /* Revert to inherit color on hovering */
+}
+
+.card__bottom h5 {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.card__bottom h5 span {
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .doctor__title {
+    font-size: 1rem;
+  }
+
+  .booking__btn a {
+    font-size: 0.8rem;
+  }
+
+  .booking__btn {
+    padding: 0.2rem 0.5rem !important;
+  }
+
+  .doctor__location,
+  .doctor__rating {
+    font-size: 0.8rem;
+  }
+}
+
+.booking__btn {
+  background-color: var(--secondary-color) !important;
+  padding: 0.6rem;
+  transition: 0.5s;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px; /* Updated border radius */
+  font-style: italic;
+}
+
+.booking__btn:hover {
+  transform: scale(1.1);
+  color: purple;
+}
